@@ -19,6 +19,7 @@ body{
    font-family: 'Josefin Sans', sans-serif;
    border-radius: 15px;
    background-color: #030842;
+   letter-spacing: 1px;
 }
 
 h1{
@@ -45,23 +46,23 @@ input{
    color: black;
 }
 button{
-   padding: 10px 14px;
+   padding: 8px 12px;
    font-size: 15px;
    text-transform: uppercase; /*mayuscula*/
    font-weight: bold;/*negrita*/
    font-family: 'Montserrat', sans-serif;
    background-color: #FFFFFF;
    color: #0e0c68;
-   letter-spacing: 1px;
    border: none;
    border-radius: 10px;
    transition: transform 20ms ease-in;
+   display: inline-block;
 }
 button:active {
    transform: scale(0.95);
 }
 .highlight {
-     background-color: rgb(11, 178, 255);
+    background-color: rgb(11, 178, 255);
  }
 
  .error {
